@@ -1,0 +1,20 @@
+.formFieldWrap{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.formFieldError{
+    position: absolute;
+    bottom: -20px;
+    color: #ffffff;
+    width: 100%;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    font-size: 12px;
+}

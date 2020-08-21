@@ -1,0 +1,80 @@
+.chatRoom{
+    padding: 20px 0;
+}
+.messagesBox{
+    border: 1px solid #888888;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #efecec;
+}
+.messagesBox__inner{
+    height: calc(100vh - 300px);
+    border-bottom: 1px solid #888888;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    padding: 0 10px;
+}
+.message{
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 520px;
+    background-color: #ffffff;
+    position: relative;
+}
+.message.author{
+    margin-left: auto;
+}
+.message__author{
+    text-transform: capitalize;
+    color: #186fcb;
+}
+.message__author span{
+    text-transform: none;
+    color: #555555;
+}
+.message__remove{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5),
+                inset 1px 1px 1px rgba(255,255,255,0.3);
+}
+.message__remove img{
+    filter: invert(1);
+    width: 12px;
+}
+.sendMessage{
+    border: 1px solid #888888;
+    border-radius: 5px;
+    padding: 0 15px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #555555;
+    cursor: pointer;
+    transition: all linear 150ms;
+}
+.sendMessage:hover{
+    background-color: #888888;
+    color: #ffffff;
+}
+.newMessageForm textarea{
+    height: 80px;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    padding: 10px;
+    outline: none;
+}

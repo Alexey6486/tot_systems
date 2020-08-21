@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {GeneralChat} from "./features/generalChat/GeneralChat";
+import {Route} from 'react-router-dom';
+import {MainPage} from "./features/mainPage/MainPage";
+import {Login} from "./features/login/Login";
+import { Header } from './features/header/Header';
+import {BusinessChat} from "./features/businessChat/BusinessChat";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export const App = () => {
+    return (
+        <div className="App">
+            <Header/>
+            <Route exact path='/' render={() => <MainPage/>}/>
+            <Route exact path='/login' render={() => <Login/>}/>
+            <Route exact path='/generalChat' render={() => <GeneralChat/>}/>
+            <Route exact path='/businessChat' render={() => <BusinessChat/>}/>
+        </div>
+    );
 }
 
-export default App;

@@ -1,0 +1,50 @@
+{
+  "auth": {
+    "email": "test@test.com",
+    "password": "123456"
+  },
+  "generalChat": [
+    {
+      "id": "3",
+      "message": " Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+      "author": "Merry"
+    },
+    {
+      "id": "5",
+      "message": " Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+      "author": "David"
+    },
+    {
+      "message": "Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Ds.",
+      "author": "admin_author",
+      "id": "30NpZYG"
+    },
+    {
+      "id": "6",
+      "message": " Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+      "author": "Merry"
+    },
+    {
+      "message": "Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.",
+      "author": "admin_author",
+      "id": "3_P3rJZ"
+    }
+  ],
+  "businessChat": [
+    {
+      "id": "3",
+      "message": "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.",
+      "author": "Jessica"
+    },
+    {
+      "id": "4",
+      "message": "Etiam sit amet orci eget eros faucibus tincidunt.",
+      "author": "John"
+    },
+    {
+      "message": "New message to business chat.",
+      "author": "admin_author",
+      "id": "qK-wq83"
+    }
+  ]
+}
